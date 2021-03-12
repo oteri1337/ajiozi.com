@@ -1,0 +1,63 @@
+@media (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .slider-text {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+
+  .app-px-3-5 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  ul.stepper .step .step-content {
+    margin-left: 1.5rem;
+    margin-right: 0;
+  }
+
+  body {
+    font-size: 17px;
+  }
+
+  nav .brand-logo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .app-f-3-6 {
+    font-size: 2.5rem;
+  }
+
+  .mobile-table {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+  }
+
+  nav .brand-logo {
+    left: 35%;
+  }
+
+  nav ul a {
+    padding: 0 10px;
+  }
+
+  .caption {
+    padding-top: 1vh;
+  }
+
+  .slider .slides li .caption p {
+    line-height: 1.7rem;
+  }
+}

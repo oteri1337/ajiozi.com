@@ -1,0 +1,22 @@
+.app-image-back-1 {
+  background-image: url("../images/crypto/background1.jpg");
+  background-attachment: fixed;
+}
+
+.app-image-top-right {
+  background-image: url("../images/topright.png"), var(--gradient);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.app-image-top-left {
+  background-image: url("../images/topleft.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.app-image-top-center {
+  background-image: url("../images/topcenter.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}

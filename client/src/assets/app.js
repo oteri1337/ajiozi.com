@@ -1,0 +1,9 @@
+import "./css/ajiozi.css";
+import "./css/social-icons.css";
+import "./css/grid.css";
+import "./css/resets.css";
+import "./css/c1.css";
+import "./css/c2.css";
+import "./css/c3.css";
+import "./css/c4.css";
+import "./css/c6.css";

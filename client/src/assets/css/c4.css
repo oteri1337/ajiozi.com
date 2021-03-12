@@ -1,0 +1,80 @@
+/* fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700"); */
+
+body {
+  font-size: 1rem;
+}
+
+.app-primary-background {
+  font-size: 19px;
+}
+
+.app-primary-background h1 {
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: 0.7px;
+  font-weight: 400;
+}
+
+.app-secondary-background a {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+nav {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+nav .brand-logo {
+  font-size: 14px;
+}
+
+.collapsible-header {
+  font-size: 1.2rem;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+.h2 {
+  font-size: 2.5rem;
+}
+
+.h3 {
+  font-size: 2rem;
+}
+
+.h4 {
+  font-size: 1.5rem;
+}
+
+.h5 {
+  font-size: 1rem;
+}
+
+.h6 {
+  font-size: 1.5rem;
+}

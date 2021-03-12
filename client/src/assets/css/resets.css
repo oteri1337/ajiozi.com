@@ -1,0 +1,31 @@
+.btn {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 50px;
+  margin: 0.5rem;
+}
+.card-panel {
+  margin: 0;
+}
+
+.material-icons {
+  position: relative;
+  padding: 0 0.2rem;
+  vertical-align: -20%;
+  top: 0rem;
+}
+
+.fixed-action-btn {
+  right: 100px;
+}
+
+nav {
+  box-shadow: none;
+}
+
+.material-icons {
+  position: relative;
+  padding: 0 0.2rem;
+  vertical-align: -20%;
+  top: 0rem;
+}

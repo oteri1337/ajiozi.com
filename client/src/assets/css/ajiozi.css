@@ -1,0 +1,266 @@
+/* Resets */
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+  word-wrap: break-word;
+  font-weight: 500;
+}
+
+.btn {
+  margin: 0.1rem;
+}
+
+.card-panel {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#particles-js canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Custom */
+
+.ajiozi-circles {
+  background-image: url("/images/illustrations/circles.png");
+  background-position: right center;
+}
+
+.ajiozi-stock-1 {
+  background: url("/images/stock/stock-1.png");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  background-size: cover;
+}
+
+.ajiozi-stock-2 {
+  background: url("/images/stock/stock-2.png");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  margin-bottom: 3px;
+  background-size: cover;
+}
+
+.ajiozi-stock-iot {
+  background: url("/images/stock/cyber-4.jpg");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  margin-bottom: 3px;
+  background-size: cover;
+}
+
+.ajiozi-stock-cyber {
+  background: url("/images/stock/cyber-5.jpg");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  margin-bottom: 3px;
+  background-size: cover;
+}
+
+.ajiozi-stock-system {
+  background: url("/images/stock/system-4.jpg");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  margin-bottom: 3px;
+  background-size: cover;
+}
+
+.ajiozi-stock-cctv {
+  background: url("/images/stock/cctv-3.jpg");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  margin-bottom: 3px;
+  background-size: cover;
+}
+
+.ajiozi-stock-3 {
+  background: url("/images/stock/stock-3-2.png");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  margin-bottom: 3px;
+  background-size: cover;
+}
+
+.ajiozi-stock-4 {
+  background: url("/images/stock/stock-4.png");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  margin-bottom: 3px;
+  background-size: cover;
+}
+
+.ajiozi-stock-5 {
+  background: url("/images/stock/stock-5-2.png");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  background-size: cover;
+  margin-bottom: 3px;
+}
+
+.ajiozi-stock-6 {
+  background: url("/images/stock/stock-6.png");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  margin-bottom: 3px;
+}
+
+.ajiozi-stock-7 {
+  background: url("/images/stock/stock-7.png");
+  color: white;
+  text-align: center;
+  min-height: 60vh !important;
+  background-repeat: no-repeat;
+  margin-bottom: 3px;
+  background-size: cover;
+}
+
+.ajiozi-stock-8 {
+  background: url("/images/stock/stock-8.png");
+  color: white;
+}
+
+.ajiozi-stock-9 {
+  background: url("/images/stock/stock-9.png");
+  color: white;
+  background-size: cover;
+}
+
+.ajiozi-stock-10 {
+  background: url("/images/stock/stock-10.png");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+
+.ajiozi-stock-11 {
+  background: url("/images/stock/stock-11.png");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+
+.ajiozi-stock-12 {
+  background: url("/images/stock/stock-12.png");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+
+.ajiozi-burger-nav {
+  display: inline !important;
+}
+
+.ajiozi-logo {
+  height: 3rem;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  max-width: 7rem;
+}
+
+.ajiozi-navigation {
+  margin: 2rem;
+}
+
+.ajiozi-social {
+  margin-right: 0.5rem;
+}
+
+.ajiozi-social-text {
+  position: relative;
+  top: -7px;
+}
+
+.ajiozi-partners {
+  width: 250px;
+  height: 50px;
+}
+
+.ajiozi-particles-button {
+  z-index: 1;
+  position: relative;
+}
+
+.ajiozi-padding-ten {
+  padding: 5rem 2rem 10rem 2rem;
+}
+
+.ajiozi-padding-top-three {
+  padding-top: 3rem;
+}
+
+.ajiozi-margin-top-three {
+  margin-top: 3rem;
+}
+
+.ajiozi-margin-bottom {
+  margin-bottom: 2rem;
+}
+
+#ajiozi-profile-photo {
+  height: 17rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.ajiozi-grey {
+  background: #f2f2f2;
+}
+
+.ajiozi-no-margin {
+  margin: 0;
+}
+
+.ajiozi-image-text {
+  position: relative;
+  top: 20vh;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.input-field > label {
+  text-transform: capitalize;
+}
+
+.ajiozi-arrow {
+  font-size: 3rem;
+  border: 0.2rem solid;
+  border-radius: 50%;
+}
+
+.card .card-content {
+  font-size: 0.8rem;
+}
+
+nav i,
+nav i.material-icons {
+  display: inline-block;
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-out;
+}

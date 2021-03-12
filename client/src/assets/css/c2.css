@@ -1,0 +1,100 @@
+/* colours */
+
+:root {
+  --primary-colour: #0eb8d9;
+  --secondary-colour: #01405f;
+  --accent-colour: #6f8ba4;
+  --neutral-colour: #ffffff;
+  --dark-colour: #0d47a1;
+  --gradient: linear-gradient(134deg, #0eb8d9 0%, #2cddc9 100%);
+}
+
+body {
+  background-color: #f7f9fb;
+}
+
+nav {
+  background: var(--neutral-colour);
+}
+
+nav .brand-logo {
+  color: var(--dark-colour);
+}
+
+nav ul a {
+  color: var(--dark-colour);
+}
+
+.btn {
+  background: var(--secondary-colour);
+}
+
+.btn.btn-secondary {
+  background: var(--neutral-colour);
+  color: var(--secondary-colour);
+}
+
+.app-primary-background {
+  background-color: var(--primary-colour);
+  color: var(--neutral-colour);
+  background-image: var(--gradient);
+  /* //background-image: url("../images/topright.png"); */
+}
+
+.app-secondary-background {
+  background-color: var(--neutral-colour);
+  color: var(--secondary-colour);
+  border-bottom: 1px solid var(--accent-colour);
+}
+
+.app-secondary-background a {
+  color: var(--accent-colour);
+}
+
+.app-secondary-background a {
+  color: var(--dark-colour);
+}
+
+.app-accent-background {
+  background-color: var(--accent-colour);
+  color: var(--neutral-colour);
+}
+
+.collapsible-header {
+  color: var(--accent-colour);
+}
+
+.transparent {
+  background: transparent;
+}
+
+.transparent a {
+  color: var(--neutral-colour);
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: var(--dark-colour);
+}
+
+.tabs .tab a {
+  background: #ffffff;
+  background-color: #ffffff;
+  color: var(--dark-colour);
+}
+
+.tabs .tab a.active,
+.tabs .tab a:hover,
+.tabs .tab a:focus.active {
+  background: #ffffff;
+  background-color: #ffffff;
+  color: var(--dark-colour);
+}
+
+.tabs .tab a.active {
+  color: #a02200 !important;
+}
+
+.tabs .indicator {
+  background-color: #a02200;
+}
