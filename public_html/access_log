@@ -519,3 +519,7 @@
 127.0.0.1 - - [13/Mar/2021:03:12:13 +0100] "GET //images/products/product-h5.png HTTP/1.1" 200 9329
 127.0.0.1 - - [13/Mar/2021:03:12:13 +0100] "GET //images/products/product-h7.png HTTP/1.1" 200 8571
 127.0.0.1 - - [13/Mar/2021:03:12:13 +0100] "GET //images/products/product-h6.png HTTP/1.1" 200 9329
+127.0.0.1 - - [13/Mar/2021:03:18:42 +0100] "GET / HTTP/1.1" 200 10177
+127.0.0.1 - - [13/Mar/2021:03:18:42 +0100] "GET /images/illustrations/circles.png HTTP/1.1" 200 10177
+127.0.0.1 - - [13/Mar/2021:03:18:43 +0100] "GET /api/users/auth/status HTTP/1.1" 200 26
+127.0.0.1 - - [13/Mar/2021:03:18:43 +0100] "GET /api/admins/auth/status HTTP/1.1" 200 10177

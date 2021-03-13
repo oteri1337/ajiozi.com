@@ -38,29 +38,31 @@ function ProductsListPage(props) {
   ];
 
   const renderList = () => {
-    return products.data.map((row) => {
-      return (
-        <React.Fragment key={row.id}>
-          <div className="col l4 m4 s12">
-            <div className="card large">
-              <div className="card-image">{renderImageOne(row)}</div>
-              <div className="card-content">
-                <Link to={`/products/${row.slug}`}>{row.title}</Link>
-                <p>
-                  <s>N</s> {row.price_string}
-                </p>
-                <br />
-                <br />
-                <p dangerouslySetInnerHTML={{ __html: row.description }} />
-              </div>
-              <div className="card-action" style={{ fontSize: "1rem" }}>
-                <AddToCartComponent id={row.id} {...props} />
+    if (products.data?.length) {
+      return products.data?.map((row) => {
+        return (
+          <React.Fragment key={row.id}>
+            <div className="col l4 m4 s12">
+              <div className="card large">
+                <div className="card-image">{renderImageOne(row)}</div>
+                <div className="card-content">
+                  <Link to={`/products/${row.slug}`}>{row.title}</Link>
+                  <p>
+                    <s>N</s> {row.price_string}
+                  </p>
+                  <br />
+                  <br />
+                  <p dangerouslySetInnerHTML={{ __html: row.description }} />
+                </div>
+                <div className="card-action" style={{ fontSize: "1rem" }}>
+                  <AddToCartComponent id={row.id} {...props} />
+                </div>
               </div>
             </div>
-          </div>
-        </React.Fragment>
-      );
-    });
+          </React.Fragment>
+        );
+      });
+    }
   };
 
   const renderImageOne = (row) => {
