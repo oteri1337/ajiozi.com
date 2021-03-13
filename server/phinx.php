@@ -2,7 +2,7 @@
 
 require_once('vendor/autoload.php');
 
-$dotenv = new \Dotenv\Dotenv(__DIR__ . '\src');
+$dotenv = new \Dotenv\Dotenv(__DIR__ . '/src');
 $dotenv->load();
 
 return [

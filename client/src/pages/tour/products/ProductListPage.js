@@ -90,7 +90,7 @@ function ProductsListPage(props) {
           endpoint="/api/products/search"
           dispatch="UPDATE_PRODUCTS"
         />
-        {/* {renderList()} */}
+        {renderList()}
         <UtilPaginationComponent
           data={products}
           dispatch="UPDATE_PRODUCTS_PAGE"

@@ -31,8 +31,8 @@ class CreateUsersTable extends ParentMigration {
             $table->string('email_token')->default("123233i29032093209329");
             $table->string('password_token')->nullable();
 
-            $table->boolean('email_verified');
-            $table->boolean('identity_verified');
+            $table->boolean('email_verified')->default(0);
+            $table->boolean('identity_verified')->default(0);
 
             $table->timestamps();
         });

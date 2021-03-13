@@ -11,13 +11,13 @@ class CreateProductsTable extends ParentMigration {
             $table->string('title');
             $table->string('slug')->unique();
             $table->double('price',11,2);
-            $table->string('price_string');
+            $table->string('price_string')->nullable();
             $table->integer('stock')->default(1);
             $table->integer('quantity')->default(1);
             $table->string('description');
             $table->string('image_one');
-            $table->string('image_two');
-            $table->string('image_three');
+            $table->string('image_two')->nullable();
+            $table->string('image_three')->nullable();
             $table->timestamps();
         });
     }
